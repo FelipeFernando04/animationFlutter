@@ -22,15 +22,15 @@ class GalleryScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Animated Gallery'),
+        title: const Text('Galeria Animada'),
       ),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
         children: [
-          Text('Tech picks for students', style: theme.textTheme.headlineSmall),
+          Text('Escolhas tech para estudantes', style: theme.textTheme.headlineSmall),
           const SizedBox(height: 8),
           Text(
-            'Tap any card to view details with a Hero transition.',
+            'Toque em qualquer card para ver os detalhes com transição Hero.',
             style: theme.textTheme.bodyLarge,
           ),
           const SizedBox(height: 16),

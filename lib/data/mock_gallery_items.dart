@@ -3,42 +3,42 @@ import '../models/gallery_item.dart';
 const List<GalleryItem> mockGalleryItems = [
   GalleryItem(
     id: 'headphones-1',
-    title: 'Noise Cancelling Headphones',
-    subtitle: 'Comfort for study sessions',
+    title: 'Fones com Cancelamento de Ruído',
+    subtitle: 'Conforto para sessões de estudo',
     description:
-        'Premium wireless headphones with soft ear cups, long battery life, and crisp sound for focus music.',
+        'Fones sem fio premium com almofadas macias, bateria de longa duração e som nítido para manter o foco.',
     imageUrl:
         'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80',
-    price: '\$249',
+    price: 'R\$ 1.249,00',
   ),
   GalleryItem(
     id: 'watch-1',
-    title: 'Smart Fitness Watch',
-    subtitle: 'Track your daily rhythm',
+    title: 'Smartwatch Fitness',
+    subtitle: 'Acompanhe seu ritmo diário',
     description:
-        'Stylish smartwatch with heart-rate tracking, sleep analytics, and a vibrant AMOLED display.',
+        'Smartwatch estiloso com monitoramento de batimentos cardíacos, análise de sono e uma tela AMOLED vibrante.',
     imageUrl:
         'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80',
-    price: '\$199',
+    price: 'R\$ 999,00',
   ),
   GalleryItem(
     id: 'camera-1',
-    title: 'Travel Mirrorless Camera',
-    subtitle: 'Capture every adventure',
+    title: 'Câmera Mirrorless de Viagem',
+    subtitle: 'Capture cada aventura',
     description:
-        'Compact camera with sharp low-light performance, ideal for students creating content on the go.',
+        'Câmera compacta com ótimo desempenho em baixa luminosidade, ideal para estudantes criando conteúdo em qualquer lugar.',
     imageUrl:
         'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=80',
-    price: '\$599',
+    price: 'R\$ 3.499,00',
   ),
   GalleryItem(
     id: 'laptop-1',
-    title: 'Ultralight Laptop',
-    subtitle: 'Built for productivity',
+    title: 'Notebook Ultraleve',
+    subtitle: 'Feito para produtividade',
     description:
-        'Portable laptop with all-day battery and a bright display for coding, design, and assignments.',
+        'Notebook portátil com bateria para o dia todo e tela brilhante para programar, desenhar e fazer trabalhos.',
     imageUrl:
         'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80',
-    price: '\$899',
+    price: 'R\$ 4.599,00',
   ),
 ];

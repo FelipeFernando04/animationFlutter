@@ -38,17 +38,17 @@ class _GalleryCardState extends State<GalleryCard> {
       curve: Curves.easeInOut,
       decoration: BoxDecoration(
         color: _isPressed
-            ? scheme.primaryContainer.withOpacity(0.35)
+            ? scheme.primaryContainer.withValues(alpha: 0.35)
             : scheme.surface,
         borderRadius: BorderRadius.circular(24),
         border: Border.all(
           color: _isPressed
-              ? scheme.primary.withOpacity(0.30)
-              : scheme.outlineVariant.withOpacity(0.50),
+              ? scheme.primary.withValues(alpha: 0.30)
+              : scheme.outlineVariant.withValues(alpha: 0.50),
         ),
         boxShadow: [
           BoxShadow(
-            color: scheme.shadow.withOpacity(_isPressed ? 0.10 : 0.04),
+            color: scheme.shadow.withValues(alpha: _isPressed ? 0.10 : 0.04),
             blurRadius: _isPressed ? 20 : 12,
             offset: Offset(0, _isPressed ? 8 : 4),
           ),
@@ -102,7 +102,7 @@ class _GalleryCardState extends State<GalleryCard> {
                           child: Container(
                             padding: const EdgeInsets.all(8),
                             decoration: BoxDecoration(
-                              color: scheme.primary.withOpacity(0.10),
+                              color: scheme.primary.withValues(alpha: 0.10),
                               shape: BoxShape.circle,
                             ),
                             child: Icon(
